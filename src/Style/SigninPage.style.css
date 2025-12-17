@@ -1,0 +1,39 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(purple,pink,blue);
+}
+
+form {
+    background-color: white;
+    display: flex;
+    width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 20px;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form #checkbox_btn{
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+form #Login_option{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 12px;
+    gap: 5px;
+}
+
+form a{
+    padding-top: 10px;
+}

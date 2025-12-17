@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/SigninPage.style.css">
+</head>
+<body>
+    <form action="php/Signin_Page.php" method="post" id="Submit_Form">
+        <h2>Sign Up</h2>
+        <input type="text" name="Name" placeholder="Name" id="Name_input">
+        <span id="Name_Error"></span>
+        <input type="text" name="Email" placeholder="Email" id="Email_input">
+        <span id="Email_Error"></span>
+        <input type="text" name="Password" placeholder="Password" id="Password_input">
+        <span id="Password_Error"></span>
+        <input type="text" name="Country" placeholder="Country Code" id="Country_input">
+        <span id="Country_Error"></span>
+        <input type="text" name="Phone_number" placeholder="Phone" id="Phone_input">
+        <span id="Phone_Error"></span>
+
+        <div id="checkbox_btn">
+            <input type="checkbox">
+            <p>By clicking this button you agree on all the terms</p>
+        </div>
+
+        <button id="Submit_Btn">CREATE ACCOUNT</button>
+        
+        <div id="Login_option">
+            <p>Already have an account?</p>
+            <a href="LoginPage.html">Login in</a>
+        </div>
+    </form>
+    
+</body>
+<script src="Typescript/SigninPage.js"></script>
+</html>
