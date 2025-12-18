@@ -7,23 +7,28 @@
     <link rel="stylesheet" href="Style/LoginPage.style.css">
 </head>
 <body>
-    <form action="Auth/Login_Page.php" method="post">
+    <form action="Auth/Login_Page.php" method="post" id="Login_Form">
         <h1>LOGIN</h1>
-        <input type="email" placeholder="Email" name="Email">
-        <input type="password" placeholder="password" name="Password">
+        <input type="text" placeholder="Email" name="Email" id="Email_input">
+        <span id="Email_input_Error"></span>
+        <input type="password" placeholder="password" name="Password" id="Password_input">
+        <span id="Password_input_Error"></span>
         <div id="Remeber_btn">
             <input type="checkbox">
             <p>Remeber me</p>
         </div>
         
-        <button>LOGIN</button>
+        <button id="Login_Btn">LOGIN</button>
 
         <div id="Sign_in_link">
             <p>You don’t have an account? </p>
             <a href="Sign_in_Page.html">Sign up now</a>
         </div>
     </form>
+
+<script src="Typescript/LoginPage.js"></script>
 </body>
+
 </html>
 
 <!-- Mohamad_Owidate2@gmail.com -->
