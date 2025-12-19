@@ -25,3 +25,13 @@ Next-Week-Plan:
     day-3:
         <!-- Add env and understand it and use it -->
         <!-- Add Aotharization and understand how it works -->
+
+This Week Plan:
+    day-1:
+        <!-- Add Some features to the Sign in Page -->
+    day-2:
+        <!-- Use the cookies -->
+    day-3:
+        Use the Session
+    day-4:
+        
