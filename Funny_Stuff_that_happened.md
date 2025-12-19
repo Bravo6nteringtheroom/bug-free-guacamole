@@ -11,3 +11,11 @@ Still trying to understand the difference between sessions and cookies
 Yo boys today finally after finishing my finals i got a break so now im back to work on the project trying to finsih it instead of making it a forgetable side project
 
 So today i used Typescript to make sure that the signin input is correct and all good to be sum
+
+oka guys im so tired now for today i just added the cookie feature to store the users email inside a cookie and use it somewhere else in the website the problem here is that using typescript to code and then compiling it to js code added the Object(...) something like that this problem right here is what stopping me from using the cookie feature hope i can solve it soon but for today i added the feature and this bug shall be solved just like the rest
+
+haaah okay guys so for the cookie stuff i managed to create the cookie using js instead of using the typescript i realized that not all things should be done by Typescript or maybe its because i faced the same error of the import stuff where i was editing my package.json and tsconfig.json file for nothing so yeah i managed to create the cookie that store the email and its live now and it will be destroyed after a day or when the user logout
+
+okay so bascially i had to change some stuff because i was trying to print the session in my php backend and all of that chaos was just because i forgot to type session_start() in the php code i want so yeah i was this close to destroying the first thing i saw in my house
+
+okay so for todays prograss i managed to use the sessions and im planning on using them in future if the user want to go to a specific page that require an account so it checks if he already signed in or nah so he can create an account

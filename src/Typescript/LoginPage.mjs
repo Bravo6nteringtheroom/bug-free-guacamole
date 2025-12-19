@@ -1,3 +1,4 @@
+import {createCookie , destroyCookie , getCookie} from './Cookies.js'
 "use strict";
 // Object.defineProperty(exports, "__esModule", { value: true });
 var Email = document.getElementById("Email_input");
@@ -10,6 +11,7 @@ Login_Btn.addEventListener('click', function (event) {
     event.preventDefault();
     if (Check_Login_input()) {
         Login_Form.submit();
+        let Cookies = createCookie("Email_Cookie" , Email.value)
     }
     else {
         console.log("Error occured");

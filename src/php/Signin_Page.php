@@ -10,7 +10,7 @@
         $Password = $_POST["Password"];
         
         $Hashed_Password = password_hash($Password,PASSWORD_DEFAULT);
-        $target_url = "http://192.168.1.111/src/";
+        $target_url = "http://192.168.1.111/";
         //Check if the user's sign in password already exists or nah
         $sql_Check_Account = "Select Password from user_account where Email = '$Email' ";
         $result = $connection->query($sql_Check_Account);

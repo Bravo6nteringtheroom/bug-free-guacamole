@@ -1,9 +1,10 @@
+"use strict";
 //User name ; expires ; path
 export function createCookie(name, value) {
     var day = (86440);
     document.cookie = name + '=' + value + ";" + "max-age = " + day + ";path=/";
 }
-export function destroyCookie(name, value) {
+export function destroyCookie(name) {
     document.cookie = "".concat(name, "=;max-age=0;path=/");
 }
 export function getCookie(cname) {
