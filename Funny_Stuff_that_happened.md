@@ -19,3 +19,5 @@ haaah okay guys so for the cookie stuff i managed to create the cookie using js 
 okay so bascially i had to change some stuff because i was trying to print the session in my php backend and all of that chaos was just because i forgot to type session_start() in the php code i want so yeah i was this close to destroying the first thing i saw in my house
 
 okay so for todays prograss i managed to use the sessions and im planning on using them in future if the user want to go to a specific page that require an account so it checks if he already signed in or nah so he can create an account
+
+next 
