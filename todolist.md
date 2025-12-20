@@ -32,6 +32,6 @@ This Week Plan:
     day-2:
         <!-- Use the cookies -->
     day-3:
-        Use the Session
+        <!-- Use the Session -->
     day-4:
-        
+        Sign out feature
