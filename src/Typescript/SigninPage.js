@@ -1,3 +1,5 @@
+import { createCookie } from "./Cookies";
+
 var Name_input = document.getElementById("Name_input");
 var Password_input = document.getElementById("Password_input");
 var Email_input = document.getElementById("Email_input");
@@ -76,4 +78,5 @@ Submit_btn.addEventListener('click', function (event) {
         Submit_Form.submit();
     }
     Submit_Form.submit();
+    createCookie("Username",Name_input.value)
 });

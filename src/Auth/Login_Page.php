@@ -18,7 +18,7 @@
                         Start_Session_Now();
                         $_SESSION["Email"] = $Sequred_Email;
                     }
-                    header("Location: " . $test_url);
+                    header("Location: " . $target_url);
                     exit;
                 }else{
                     echo "THe Password is not equal";

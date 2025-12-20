@@ -10,8 +10,8 @@ var Login_Form = document.getElementById("Login_Form");
 Login_Btn.addEventListener('click', function (event) {
     event.preventDefault();
     if (Check_Login_input()) {
+        createCookie("Email_Cookie" , Email.value)
         Login_Form.submit();
-        let Cookies = createCookie("Email_Cookie" , Email.value)
     }
     else {
         console.log("Error occured");
@@ -20,7 +20,7 @@ Login_Btn.addEventListener('click', function (event) {
 function Check_Login_input() {
     var AllGood = true;
     var regex = /\d/;
-    if (!("@gmail.com" in Email) && Email.value === "") {
+    if (!Email.value.includes("@gmail.com")  && Email.value === "") {
         AllGood = false;
         Email_Error.textContent = "Invalid Email\nEmail should contain @\nEmail should contain gmail.com";
     }

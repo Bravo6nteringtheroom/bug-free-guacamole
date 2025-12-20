@@ -20,4 +20,8 @@ okay so bascially i had to change some stuff because i was trying to print the s
 
 okay so for todays prograss i managed to use the sessions and im planning on using them in future if the user want to go to a specific page that require an account so it checks if he already signed in or nah so he can create an account
 
-next 
+oka guys so i can officaly say that my website contains cookies and session which both me destroyed when you log out of the website and get created when you sign in or login in to the website now finally turned out that the problem this whole time with the cookie was that i created a cookie named different then the cookie i wanna destroy it was hard but solving it was funny
+
+And now i can officaly say that the website is done it was hard it was a big challenge i was tired but looking now at it i relaized that i started this website knowing nothing saying that i will learn while building this made me realize that the true way to learn is by building instead of watching i learned typescript i learned php authentication database connection and so on heck i even learned how to prevent the website from sql and xss i can say im proud of what i achived
+
+AND NOW Since the website is done now for the next boss hosting it using apache by downloading ubuntu and using apache to host it ANd using docker containers since i dont know what it is but im sure ill figure it out

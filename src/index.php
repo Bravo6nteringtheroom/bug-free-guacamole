@@ -22,6 +22,10 @@
             <a href="LoginPage.html">Login</a>
             <a href="Sign_in_Page.html">Sign</a>
         </div>
+        <form action="index.php" method="post">
+            <button id="Sign_out_btn" name="Sign_out_btn_php">Sign out</button>
+        </form>
+        
     </div>
     
     <div id="Description_Card" style="grid-area: box-2;">
@@ -51,3 +55,11 @@ TechNova — where technology meets excellence.</p>
     <script type="module" src="Typescript/HomePage.js"></script>
 </body>
 </html>
+
+<?php
+    session_start();
+    if(isset($_POST["Sign_out_btn_php"])){
+        session_unset();
+        session_destroy();
+    }
+?>
